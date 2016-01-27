@@ -2,25 +2,30 @@ body {
     Margin: 0;
     padding: 0;
     min-width: 100%;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
 }
+
 table {
     border-spacing: 0;
     font-family: sans-serif;
     color: #333333;
 }
+
 td {
     padding: 0;
 }
+
 img {
     border: 0;
 }
+
 .wrapper {
     width: 100%;
     table-layout: fixed;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
+
 .webkit {
     max-width: 600px;
 }
@@ -28,4 +33,49 @@ img {
 /* Windows Phone Viewport Fix */
 @-ms-viewport { 
     width: device-width; 
+}
+
+.outer {
+    Margin: 0 auto;
+    width: 95%;
+    max-width: 600px;
+   background-color: #ffffff;
+}
+
+.inner {
+    padding: 10px;
+}
+p {
+  margin:0;
+  padding:0;
+    Margin: 0;
+}
+a {
+    color: #ee6a56;
+    text-decoration: underline;
+}
+.h1 {
+    font-size: 21px;
+    font-weight: bold;
+    Margin-bottom: 18px;
+}
+.h2 {
+    font-size: 18px;
+    font-weight: bold;
+    Margin-bottom: 12px;
+}
+.full-width-image img {
+    width: 100%;
+    height: auto;
+} 
+
+.logo_left{
+  padding-left: 17px;
+}
+/* One column layout */
+
+
+.one-column p {
+    font-size: 14px;
+    Margin-bottom: 10px;
 }
