@@ -43,7 +43,7 @@ img {
 }
 
 .inner {
-    padding: 10px;
+    padding: 20px;
 }
 p {
   margin:0;
@@ -70,7 +70,7 @@ a {
 } 
 
 .logo_left{
-  padding-left: 17px;
+  padding-left: 20px;
 }
 /* One column layout */
 
@@ -78,4 +78,32 @@ a {
 .one-column p {
     font-size: 14px;
     Margin-bottom: 10px;
+}
+
+/*Two column layout*/
+.two-column {
+    text-align: center;
+    font-size: 0;
+}
+
+.two-column .column {
+    width: 100%;
+    max-width: 285px;
+    display: inline-block;
+    vertical-align: top;
+}
+.contents {
+    width: 100%;
+}
+
+.two-column .contents {
+    font-size: 14px;
+}
+.contents-right{
+	  text-align: right;}
+contents-left{
+	   text-align: left;
+}
+.two-column .text {
+    padding-top: 10px;
 }
